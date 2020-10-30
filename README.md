@@ -40,7 +40,7 @@ Each morning, the starter code for the Travel Blog will be pushed to the lesson 
 
 First, if you've made any changes within the repo locally, i.e., you've modified some starter code, you will need to commit those changes first:
 ```sh
-$ git add -A
+$ git add -a
 $ git commit -m "make unnecessary changes"
 ```
 
