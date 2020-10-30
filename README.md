@@ -1,6 +1,7 @@
 # Git Pull
 
-![One Does Not Simply...](https://i.imgur.com/0kKjwJ9.jpg)
+![One Does Not Simply...](https://i.imgur.com/1iyfbDr.jpg)
+***
 
 ## A quick walk-through of how to perform the _git pull_ command.
 ***
@@ -13,11 +14,11 @@
 
 ### ***Getting Started***
 
-Start by opening a new terminal window
+Start by opening a new terminal window.
 
-Navigate into the cloned repo for the Travel Blog (should be called "mern-fullstack")
+Navigate into the cloned repo for the Travel Blog (should be called "mern-fullstack").
 
-This repo on your _local machine_ is called a **local** repo, while the repos up on GitHub are referred to as **remote** repos
+This repo on your _local machine_ is called a **local** repo, while the repos up on GitHub are referred to as **remote** repos.
 
 When you cloned your fork of the lesson repo, a "link" to the git remote was automatically created. You can check which remotes exist for a given local repo using this command:
 ```sh
@@ -48,11 +49,11 @@ With local changes committed, you can now pull the updates from the Github lesso
 $ git pull upstream main
 ```
 
-Notice the order of these commands...
-* `git` tells the terminal we are performing a **git** command
-* `pull` because we are making a request to bring code _from_ the remote repo
-* `upstream` tells GitHub what **remote url** to access
-* `main` tells GitHub what **branch** to pull
+Notice the meaning of each of these terms...
+* `git` - tells the terminal we are performing a **git** command
+* `pull` - because we are making a request to bring code _from_ the remote repo
+* `upstream` - tells GitHub what **remote url** to access
+* `main` - tells GitHub what **branch** to pull
 
 From time to time, you will want to "save" the commits you have made locally to your forked GitHub lesson repo. You'll especially want to do this after we complete building the full app.
 ```sh
@@ -60,6 +61,7 @@ $ git push origin main
 ```
 
 ![Git Diagram](https://i.imgur.com/Y5yiasy.png)
+***
 
 ### ***Further Reading***
 
@@ -82,5 +84,7 @@ During group projects, merge conflicts will likely occur giving you an opportuni
 *Important*
 
 "Nested" repos are never a good idea. Therefore, if you have important code, such as your projects, that belongs in its own repo, be sure to put that code in folders outside of any other repo.
+***
 
-![Not Gonna Happen](https://i.imgur.com/307rVNC.jpg)
+![Not Gonna Happen](https://i.imgur.com/kTObg5e.jpg)
+***
